@@ -1,0 +1,21 @@
+aside {
+    width: 150px;
+    border-right: 2px solid white;
+    display: flex;
+    flex-direction: column;
+}
+
+aside button {
+    padding: 15px;
+    border: none;
+    border-bottom: 2px solid white;
+    background: #777;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+aside button:hover,
+aside button.active {
+    background: black;
+}
